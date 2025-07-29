@@ -1,0 +1,72 @@
+/* Navbar */
+.navbar {
+    background-color: #002654;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-bottom: 2px solid #fcd116;
+}
+
+.logo {
+    height: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links li a {
+    color: #fcd116;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.nav-links li a:hover {
+    text-decoration: underline;
+}
+
+/* Recruit Cards */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.recruit-card {
+    background-color: #264653;
+    border-radius: 12px;
+    padding: 1rem;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: transform 0.2s ease;
+}
+
+.recruit-card:hover {
+    transform: scale(1.05);
+}
+
+.emphasizedCard {
+    background-color: #e63946;
+    color: white;
+}
+
+/* Footer */
+footer {
+    margin-top: 3rem;
+    padding: 2rem;
+    background-color: #1d3557;
+    color: #fcd116;
+    font-weight: bold;
+    border-top: 2px solid #fcd116;
+}
+
+footer a {
+    display: block;
+    margin-top: 0.5rem;
+    color: #fcd116;
+}
